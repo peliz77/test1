@@ -61,6 +61,15 @@
                                     <action selector="sendMailButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N9G-Nf-tYI"/>
                                 </connections>
                             </button>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bpM-sg-KE4">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="169" width="227" height="18"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -70,6 +79,7 @@
                                 <exclude reference="w1z-6p-mvU"/>
                                 <exclude reference="gtE-Dd-B8d"/>
                                 <exclude reference="x2t-ij-xeT"/>
+                                <exclude reference="bpM-sg-KE4"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -79,6 +89,7 @@
                                 <include reference="w1z-6p-mvU"/>
                                 <include reference="gtE-Dd-B8d"/>
                                 <include reference="x2t-ij-xeT"/>
+                                <include reference="bpM-sg-KE4"/>
                             </mask>
                         </variation>
                     </view>
@@ -87,11 +98,12 @@
                         <outlet property="enterNameTextField" destination="fTS-Ad-hJA" id="QVn-Oi-TXQ"/>
                         <outlet property="mailButton" destination="x2t-ij-xeT" id="SMX-Sz-Rlh"/>
                         <outlet property="messageLabel" destination="gtE-Dd-B8d" id="Yzv-yC-Hud"/>
+                        <outlet property="nameLabel" destination="bpM-sg-KE4" id="4eI-Uk-00U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1521" y="128"/>
+            <point key="canvasLocation" x="1548" y="128"/>
         </scene>
         <!--Ankor Wat-->
         <scene sceneID="FaX-5F-uJR">
@@ -102,6 +114,7 @@
                         <viewControllerLayoutGuide type="bottom" id="bZN-R5-1Pm"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="wV1-Ww-Ggl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="2.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="IsP-Fe-vY8">
